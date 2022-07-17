@@ -1,19 +1,7 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
 :root {
 
   /**
@@ -81,9 +69,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -136,11 +121,8 @@ body {
 }
 
 ::-webkit-scrollbar { width: 10px; }
-
 ::-webkit-scrollbar-track { background: hsl(0, 0%, 95%); }
-
 ::-webkit-scrollbar-thumb { background: hsl(0, 0%, 80%); }
-
 ::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
@@ -284,8 +266,6 @@ body {
 
 
 
-
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -327,7 +307,6 @@ body {
   font-size: 35px;
   --ionicon-stroke-width: 40px;
 }
-
 .navbar {
   width: 100%;
   padding: 20px 10px;
@@ -335,14 +314,11 @@ body {
   visibility: hidden;
   transition: var(--transition-1);
 }
-
 .header.active .navbar {
   opacity: 1;
   visibility: visible;
 }
-
 .navbar-list { margin-bottom: 15px; }
-
 .navbar-link {
   color: var(--white-1);
   font-size: var(--fs-5);
@@ -351,10 +327,7 @@ body {
   border-bottom: 2px solid transparent;
   width: max-content;
 }
-
 .navbar-link:is(:hover, :focus) { border-color: var(--white-1); }
-
-
 
 
 
@@ -743,14 +716,11 @@ body {
   }
 
 
-
   /**
    * HERO
    */
 
   .hero-text { --fs-7: 1.8rem; }
-
-
 
   /**
    * FOOTER
@@ -759,7 +729,6 @@ body {
   .footer-top { grid-template-columns: 1fr 1fr; }
 
 }
-
 
 
 
